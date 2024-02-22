@@ -20,27 +20,15 @@ sudo apt install git
 git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Install MySQL workbench (windows, ubuntu)
+- Install MySQL DBMS (windows, ubuntu)
+- Install VSCode MySQL extension
+- Chapter01 데이터베이스 개론
+- Chapter03 데이터베이스 기초
+    - DB 만들기 create database;
+    - DB table 3개 만들기 create table (book, order, customer)
+    - DB data 넣기 insert into ... values (...)
+    - 유저 만들기, 권한 설정하기
+        - grant all privileges on *.* to 'root'@'localhost' identified by '1234';
+    - Windows cli 에서 testDB 생성하기
+    
