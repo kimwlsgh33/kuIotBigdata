@@ -1,0 +1,48 @@
+* Integers
+- (signed) char (1) : -128 ~ 127
+  character - 1 byte integer (This is used to store ASCII generally in C language)
+
+- (signed) short (int) (2) : -32768 ~ 33767
+- (signed) int (4 or 2) : -2^31 ~ 2^31 - 1 or ...
+- (signed) long (int) (4 or 8) : -2&31 ~ 2^31 - 1 or -2^63 ~ 2^63 - 1
+- (signed) long long (int) (8) : - 2^63 ~ 2^63 - 1
+
+unsigned : no sign
+- unsigned char (1) : 0 ~ 255
+- unsigned short (2) : 0 ~ 65535
+...
+
+* Floating Points
+- float (4)
+- double (8)
+
+* Void
+- if there is no input, write inside of parenthesis
+- if there is no output, write in front of functions
+- if it's void pointer(*), comprehensive pointer, generic pointer
+
+* Literal (Constant)
+
+** Integers
+100 0144 0x64 int
+(not standard - b00110000)
+
+** Floating Points
+3.14F float
+3.14 double
+both are evaluated as same speed
+
+** Long
+retirement
+1year => 100,000,000 LL (long long)
+0xFUL => 15 unsigned long
+
+
+** Character is refer to Integer
+'A' == 65 => X char X => O int O
+
+char c = 65;
+char c = 'A';
+both are the same
+
+"ABCD" => X string X => const char*
