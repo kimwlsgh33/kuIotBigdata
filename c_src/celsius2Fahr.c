@@ -15,3 +15,6 @@ int main(void){
   
   return 0;
 }
+
+void name1(void){}
+void name2(void){}
