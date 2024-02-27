@@ -6,7 +6,7 @@ int main(void)
 
   fahr = 100;
 
-  // multiply 1000 to fahr bc we want thousandths(place value)
+  // multiply 1000 to fahr bc we want thousandths(place value) 37.777 => 37777
   int celsius1000 = 1000 * 5 * (fahr - 32) / 9; //=> 37777
 
   int left = celsius1000 / 1000;
