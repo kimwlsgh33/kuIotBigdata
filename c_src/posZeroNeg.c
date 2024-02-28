@@ -18,5 +18,10 @@ int main(void) {
     // zero
     printf("%d is a zero number\n", num);
   }
+
+  // printf("%d is a %s number\n", num,
+  //        (num > 0)   ? "positive"
+  //        : (num < 0) ? "negative"
+  //                    : "zero");
   return 0;
 }
