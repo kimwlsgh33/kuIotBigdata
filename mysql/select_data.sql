@@ -54,6 +54,7 @@ select * from Book order by price, bookname desc;
 select * from Book order by price desc, bookname desc;
 
 -- Example 3-14
+-- HACK: You can use many column after order by!!
 select * from Book order by price, publisher desc;
 
 

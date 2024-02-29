@@ -72,3 +72,50 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
                 - replace `127.0.0.1` with `0.0.0.0` for allow all outbound network
         - confirm MySQL configs
             - `sudo ufw allow mysql`
+
+---
+## 2024-02-29
+---
+
+- Instruction
+- What is a `Makefile`?
+    - You can custom command for cli generally to compiling C files
+        - `command: example.c`
+    - You can create variable in Makefile
+        - `variable = value`
+    - You can obmit a explicit compiling c file
+        - `cfile with out extension: $@`
+    - You can execute a `Makefile`
+        - Makefile's all command
+            - `make`
+        - Makefile's other commands
+            - `make command`
+
+- What are advantages of `Makefile`
+    - `make` will watch the source file and skip few step if it already exists.
+    - `make` can use **variable**
+- SQL languages
+    - aggregation `sum, avg, min, max`
+    - combine many tables
+        - You need to take care of cartesian product
+            - `where table1.columnid = table2=columnid`
+        - `FROM table1, table2`
+        - OUTER vs. INNER
+            - OUTER is UNION
+                - `FROM table1 LEFT OUTER JOIN table2`
+                - `FROM table1 LEFT JOIN table2`
+            - INNER is intersection
+                - `FROM table1 INNER JOIN table2`
+        - UNION
+            - `SELECT ... UNION SELECT ...`
+    - DDL
+        - **CREATE** structure of database
+        - **ALTER** structure of database
+        - **DROP** structure of database
+    - DCL
+        - **INSERT** data into database
+        - **UPDATE SET** data in database
+        - **DELETE** data from database
+
+    - built-in functions
+        - functions such like Math, Date
