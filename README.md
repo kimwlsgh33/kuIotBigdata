@@ -85,19 +85,27 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 
 ---
 
-## [2024-02-25](./c_src/notes/20240225_types.md)
+## 2024-02-25
+
+[The basic types of C](c_src/notes/20240225_types.md)
 
 ---
 
-## [2024-02-26](/c_src/notes/20240226.md)
+## 2024-02-26
+
+[Operator in C](c_src/notes/20240226.md)
 
 ---
 
-## [2024-02-27](/c_src/notes/20240227.md)
+## 2024-02-27
+
+[Control Flow in C](c_src/notes/20240227.md)
 
 ---
 
-## [2024-02-28](/c_src/notes/20240228.md)
+## 2024-02-28
+
+[Loop and Redirection in C](c_src/notes/20240228.md)
 
 ---
 
