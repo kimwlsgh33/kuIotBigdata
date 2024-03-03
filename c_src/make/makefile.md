@@ -1,8 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
-
 - [Getting Started](#getting-started)
   - [Why do Makefiles exist?](#why-do-makefiles-exist)
   - [What alternatives are there to Make?](#what-alternatives-are-there-to-make)
@@ -10,12 +8,16 @@
     - [Java](#java)
     - [Go, Rust, Typescript, etc...](#go-rust-typescript-etc)
   - [Makefile Syntax](#makefile-syntax)
+  - [Makefile Example](#makefile-example)
+    - [blah](#blah)
+- [The Problems of Makefiles](#the-problems-of-makefiles)
+  - [Solving these problems](#solving-these-problems)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Getting Started
 
-> Makefile
+> [Makefile Tutorial](https://makefiletutorial.com/#makefile-syntax)
 
 ## Why do Makefiles exist?
 
@@ -54,3 +56,27 @@ target: dependencies
 - target : The name of the target and the name of the file.
 - dependencies : The dependencies of the target. This must exist before the target's command can be executed.
 - command : The command to be executed.
+
+## Makefile Example
+
+### [blah](./blah/blah.md)
+
+# The Problems of Makefiles
+
+- Create a specific header files automatically before compiling.
+
+  - Adding program version
+
+- There are too many targets to build
+
+  - shared libraries
+
+- There are too many Submodules
+
+- If you need to make a virtual filesystem before compiling
+
+- If you need to make binary to fuse to embedded processor from a executable that is already compiled
+
+## Solving these problems
+
+You can use the [CMake](../cmake/CMakeList.md)
