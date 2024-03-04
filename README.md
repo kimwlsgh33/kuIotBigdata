@@ -158,3 +158,11 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 
   - built-in functions
     - functions such like Math, Date
+
+---
+
+## 2024-03-04
+
+[Array](./notes/20240304.md)
+
+---
