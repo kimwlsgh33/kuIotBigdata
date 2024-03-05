@@ -24,19 +24,28 @@ int main(void) {
   // j => [0, i-1] => [0, i)
 
   // i: 1 ~ 6
-  for (int i = 1; i < 7; ++i) {
-    int tmp = rand() % 45 + 1;
+  for (int i = 1; i < 7;) {
+    // Just use array. You don't need a temporal value in the case
+    lotto[i] = rand() % 45 + 1;
     // if (tmp in lotto) {
     //   --i;
     // }
     // j: [0, i)
-    for (int j = 0; j < i; ++j) {
-      if (tmp == lotto[j]) {
-        --i;
+    int j;
+    // If lotto[i] is not in array, `j` must be the `i`
+    // TODO: This idea must be recall
+    for (j = 0; j < i; ++j) {
+      if (lotto[i] == lotto[j]) {
         break; // break the nested loop as soon as a duplication is found.
       }
     }
-    lotto[i] = tmp;
+
+    if (j == i) {
+      // duplication not found
+      ++i;
+    } /* else {
+      // found
+    } */
   }
 
   // output
