@@ -166,3 +166,15 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 [Array](./notes/20240304.md)
 
 ---
+
+## 2024-03-05
+
+[Pointer](./notes/20240305.md)
+
+---
+
+## 2024-03-06
+
+[Pointer as a function argument](./notes/20240306.md)
+
+---
