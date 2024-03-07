@@ -23,3 +23,5 @@ test "multi defer" {
 
 // Defer is useful to ensure that resources are cleaned up
 // when they are no longer needed.
+// Instead of needing to remember to manually free up the resource,
+// you can add a defer statement right next to the statement which allocates that resource.
