@@ -178,3 +178,9 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 [Pointer as a function argument](c_src/notes/20240306.md)
 
 ---
+
+## 2024-03-07
+
+[View and Index](mysql/notes/20240307.md)
+
+---
