@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [
+    "${workspaceFolder}/**",
+    -I/usr/local/include/**,
+    -I/usr/include/**
+  ]
