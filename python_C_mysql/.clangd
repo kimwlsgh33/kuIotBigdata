@@ -1,6 +1,5 @@
 CompileFlags:
-  Add: [
-    "${workspaceFolder}/**",
-    -I/usr/local/include/**,
-    -I/usr/include/**
-  ]
+  Add:
+  - "-I/usr/local/include"
+  - "-I/usr/include"
+  - "-I/opt/homebrew/Cellar/mysql/8.3.0_1/include/mysql"

@@ -7,7 +7,7 @@ void printStringArray1(char (*str)[21], int size) {
 }
 
 void printStringArray2(char *str[], int size) {
-// void printStringArray2(char **str, int size) {
+  // void printStringArray2(char **str, int size) {
   for (int i = 0; i < size; ++i) {
     printf("%s\n", str[i]); // &str[i] = str[i][0]
   }
