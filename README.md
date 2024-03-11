@@ -87,25 +87,25 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 
 ## 2024-02-25
 
-[The basic types of C](c_src/notes/20240225_types.md)
+[C : The basic types of C](c_src/notes/20240225_types.md)
 
 ---
 
 ## 2024-02-26
 
-[Operator in C](c_src/notes/20240226.md)
+[C : Operator in C](c_src/notes/20240226.md)
 
 ---
 
 ## 2024-02-27
 
-[Control Flow in C](c_src/notes/20240227.md)
+[C : Control Flow in C](c_src/notes/20240227.md)
 
 ---
 
 ## 2024-02-28
 
-[Loop and Redirection in C](c_src/notes/20240228.md)
+[C : Loop and Redirection in C](c_src/notes/20240228.md)
 
 ---
 
@@ -163,19 +163,19 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 
 ## 2024-03-04
 
-[Array](c_src/notes/20240304.md)
+[C : Array](c_src/notes/20240304.md)
 
 ---
 
 ## 2024-03-05
 
-[Pointer](c_src/notes/20240305.md)
+[C : Pointer](c_src/notes/20240305.md)
 
 ---
 
 ## 2024-03-06
 
-[Pointer as a function argument](c_src/notes/20240306.md)
+[C : Pointer as a function argument](c_src/notes/20240306.md)
 
 ---
 
@@ -187,6 +187,12 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 
 ## 2024-03-08
 
-[DB : MySQL in C and Python](/mysql/notes/20240308.md)
+[DB : MySQL in C and Python & Nomalization](/mysql/notes/20240308.md)
+
+---
+
+## 2024-03-11
+
+[C : ](/c_src/notes/20240311.md)
 
 ---

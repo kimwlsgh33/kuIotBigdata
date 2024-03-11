@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(date C)
+message(${CMAKE_PROJECT_NAME})
+set(CMAKE_BUILD_TYPE "Debug")
+set(SOURCE_FILES main.c date.c)
+add_executable(testDate.out ${SOURCE_FILES})
