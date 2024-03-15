@@ -53,3 +53,42 @@ test "try" {
     };
     try expect(v == 12); // is never reached
 }
+
+// `errdefer` works like `defer` but only executing when the function is returned from with an error inside of the `errdefer` block.
+var problems: u32 = 98;
+
+fn failFnCounter() error{Oops}!void {
+    errdefer problems += 1;
+    try failingFunction();
+}
+
+test "errdefer" {
+    failFnCounter() catch |err| {
+        try expect(err == error.Oops);
+        try expect(problems == 99);
+        return;
+    };
+}
+
+// Error unions returned from a function can have thier error sets inferred by not having an explicit error set.
+// This inferred error set contains all possible errors that the function may return.
+fn createFile() !void {
+    return error.AccessDenied;
+}
+
+test "inferred error set" {
+    //type corecion sucessfully takes place
+    const x: error{AccessDenied}!void = createFile();
+
+    //Zig does not let us ignore error unions via _ = x;
+    //we must unwrap it with "try", "catch", or "if" by any means
+    _ = x catch {};
+}
+
+// Error sets can be merged.
+const A = error{ NotDir, PathNotFound };
+const B = error{ OutOfMemory, PathNotFound };
+const C = A || B;
+
+// `anyerror` is the global error set, which due to being the superset of all error sets, can have an error from any set coerced to it.
+// Its usage should be generaly avoided.
