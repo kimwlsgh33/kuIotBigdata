@@ -181,7 +181,7 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 
 ## 2024-03-07
 
-[C : View and Index](mysql/notes/20240307.md)
+[DB : View and Index](mysql/notes/20240307.md)
 
 ---
 
