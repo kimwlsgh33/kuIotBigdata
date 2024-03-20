@@ -201,3 +201,7 @@ git clone https://github.com/kimwlsgh33/kuIotBigdata.git
 ## 2024-03-13
 ## 2024-03-14
 ## 2024-03-15
+
+## 2024-03-19
+
+[C : Project](/c_src/notes/project.md)
