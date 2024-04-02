@@ -115,4 +115,16 @@ C/C++ database arduino respberrypi Iot
 
 ## 2024-03-28
 
-[C/C++ : C function](/cpp_src/notes/20240328.md)
+[C/C++ : Pointers & Memory](/cpp_src/notes/20240328.md)
+
+## 2024-03-29
+
+[C/C++ : Pointers & Memory](/cpp_src/notes/20240328.md)
+
+## 2024-04-01
+
+[C/C++ : Buffer & OOP](/cpp_src/notes/20240401.md)
+
+## 2024-04-02
+
+[C/C++ : OOP and Class](/cpp_src/notes/20240402.md)

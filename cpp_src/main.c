@@ -9,5 +9,8 @@ int main(void) {
   printf("name2 : %s\n", name2);
   printf("name1 : %p\n", name1);
   printf("name2 : %p\n", name2);
+  int i;
+  float ft;
+  scanf("%d%f", &i, &ft);
   return 0;
 }
