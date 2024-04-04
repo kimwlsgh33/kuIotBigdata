@@ -128,3 +128,11 @@ C/C++ database arduino respberrypi Iot
 ## 2024-04-02
 
 [C/C++ : OOP and Class](/cpp_src/notes/20240402.md)
+
+## 2024-04-03
+
+[C/C++ : Class Pointer](/cpp_src/notes/20240403.md)
+
+## 2024-04-04
+
+[C++ : Dynamic Allocation](/cpp_src/notes/20240404.md)
