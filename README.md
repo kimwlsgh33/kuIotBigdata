@@ -136,3 +136,7 @@ C/C++ database arduino respberrypi Iot
 ## 2024-04-04
 
 [C++ : Dynamic Allocation](/cpp_src/notes/20240404.md)
+
+## 2024-04-05
+
+[C++ : Reference & Copy](/cpp_src/notes/20240405.md)
