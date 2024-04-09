@@ -140,3 +140,11 @@ C/C++ database arduino respberrypi Iot
 ## 2024-04-05
 
 [C++ : Reference & Copy](/cpp_src/notes/20240405.md)
+
+## 2024-04-08
+
+[C++ : Copy Object](/cpp_src/notes/20240408.md)
+
+## 2024-04-09
+
+[C++ : Static in Class](/cpp_src/notes/20240409.md)
