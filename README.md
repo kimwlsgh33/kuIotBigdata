@@ -148,3 +148,11 @@ C/C++ database arduino respberrypi Iot
 ## 2024-04-09
 
 [C++ : Static in Class](/cpp_src/notes/20240409.md)
+
+## 2024-04-11
+
+[C++ : Friends](/cpp_src/notes/20240411.md)
+
+## 2024-04-12
+
+[|C++ : Inheritance](cpp_src/notes/Int)
