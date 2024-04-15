@@ -155,4 +155,8 @@ C/C++ database arduino respberrypi Iot
 
 ## 2024-04-12
 
-[|C++ : Inheritance](cpp_src/notes/Int)
+[C++ : Inheritance](cpp_src/notes/20240412.md)
+
+## 2024-04-15
+
+[C++ : Micro Controller & Network](mc/notes/20240415.md)
