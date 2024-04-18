@@ -160,3 +160,11 @@ C/C++ database arduino respberrypi Iot
 ## 2024-04-15
 
 [C++ : Micro Controller & Network](mc/notes/20240415.md)
+
+## 2024-04-17
+
+[C/C++ : Analog Digital Convertor](mc/notes/20240417.md)
+
+## 2024-04-18
+
+[C/C++ : Socket Programming](mc/notes/20240418.md)

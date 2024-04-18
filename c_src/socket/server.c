@@ -33,7 +33,7 @@ void *client_proc(void *arg) {
       pthread_mutex_lock(&mutex);
       for (int i = 0; i < numberOfClients; ++i) {
         // a number of reads
-        // TODO: Lock
+        // NOTE: Lock
         write(dataSockets[i], buf, nread);
       }
       pthread_mutex_unlock(&mutex);
@@ -44,7 +44,7 @@ void *client_proc(void *arg) {
   for (int i = 0; i < numberOfClients; ++i) {
     if (dataSocket == dataSockets[i]) {
       for (int j = i; j < numberOfClients - 1; ++j) {
-        // TODO: Lock
+        // NOTE: Lock
         dataSockets[j] = dataSockets[j + 1];
       }
       break;
@@ -78,9 +78,9 @@ int main(void) {
   my_addr.sin_addr.s_addr = htonl(INADDR_ANY);
   // 0 ~ 1024 : reserved port
   // host to network short
-  my_addr.sin_port = htons(7777); // TODO : explane
+  my_addr.sin_port = htons(7777);
 
-  // pointer rule 3 : when convert struct to reduce
+  // pointer rule 3 : when transmit struct to reduce overhead
   assert(bind(servSocket, (struct sockaddr *)&my_addr,
               sizeof(my_addr)) == 0); // size can differ in address
 
@@ -95,7 +95,7 @@ int main(void) {
         accept(servSocket, (struct sockaddr *)&clientAddr, &addrLen);
     assert(dataSocket != -1);
 
-    // TODO: Lock
+    // NOTE: Lock
     pthread_mutex_lock(&mutex);
     dataSockets[numberOfClients++] = dataSocket;
     pthread_mutex_unlock(&mutex);
