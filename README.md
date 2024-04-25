@@ -168,3 +168,7 @@ C/C++ database arduino respberrypi Iot
 ## 2024-04-18
 
 [C/C++ : Socket Programming](mc/notes/20240418.md)
+
+## 2024-04-19
+
+[C/C++ : Raspberry Pi & Network](mc/notes/20240419.md)
