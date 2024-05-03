@@ -1,7 +1,3 @@
 {
-    "files.associations": {
-        "mysql.h": "c"
-    },
-    "cmake.sourceDirectory": "/home/hhhh123/kuIotBigdata/python_C_mysql",
-    "cmake.configureOnOpen": true
+    "cmake.sourceDirectory": "/Users/skoler/devs/projects/kuIotBigdata/opencv/chap03"
 }
