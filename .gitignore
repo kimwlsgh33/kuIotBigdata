@@ -62,3 +62,9 @@ build
 
 # Clangd
 .cache/
+
+# MacOS
+.DS_Store
+
+# Directories
+opencv/data/
