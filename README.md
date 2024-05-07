@@ -176,3 +176,7 @@ C/C++ database arduino respberrypi Iot
 ## 2024-05-03
 
 [C++/Python : OpenCv](opencv/notes/20240503.md)
+
+## 2024-05-07
+
+[OpenCV : Drawing & Event & File I/O](opencv/notes/20240507.md)

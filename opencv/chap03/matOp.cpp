@@ -1,7 +1,5 @@
-#include <iostream>
 #include <opencv2/core/hal/interface.h>
 #include <opencv2/opencv.hpp>
-#include <string>
 
 using namespace cv;
 using namespace std;
