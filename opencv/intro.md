@@ -1,6 +1,6 @@
 # computer vision
 
-영상 -> 정보 추출
+영상(映像) -> 정보 추출
 
 ## Data
 
