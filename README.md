@@ -184,3 +184,7 @@ C/C++ database arduino respberrypi Iot
 ## 2024-05-08
 
 [OpenCV : Filtering & Edge detection](opencv/notes/20240508.md)
+
+## 2024-05-21
+
+[Introduction of Python](python/notes/20240521.md)
