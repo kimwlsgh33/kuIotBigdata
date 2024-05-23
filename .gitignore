@@ -68,3 +68,6 @@ build
 
 # Directories
 opencv/data/
+
+# Python
+__pycache__/

@@ -188,3 +188,11 @@ C/C++ database arduino respberrypi Iot
 ## 2024-05-21
 
 [Introduction of Python](python/notes/20240521.md)
+
+## 2024-05-22
+
+[Syntax of Python](python/notes/20240522.md)
+
+## 2024-05-23
+
+[Data Structure in Python](python/notes/20240522.md)
