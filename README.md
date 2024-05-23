@@ -195,4 +195,4 @@ C/C++ database arduino respberrypi Iot
 
 ## 2024-05-23
 
-[Data Structure in Python](python/notes/20240522.md)
+[Python : Data Structure & OOP](python/notes/20240523.md)
