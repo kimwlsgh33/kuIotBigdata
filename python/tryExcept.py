@@ -10,6 +10,7 @@ def main():
     for i in range(10):
         try:
             print(10 / i)
+            # raise MyError("내가 일으킨 에러다.")
         except ZeroDivisionError as e:
             print(e)
             print("Don't devide by 0!")

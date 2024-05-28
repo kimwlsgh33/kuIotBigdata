@@ -201,10 +201,10 @@ C/C++ database arduino respberrypi Iot
 
 [Python : Package & Module](python/notes/20240524.md)
 
-## 2024-05-25
+## 2024-05-27
 
-[Python : Crawling & Data Mining](python/notes/20240525.md)
+[Statistics](pythonData/notes/20240527.md)
 
-## 2024-05-26
+## 2024-05-28
 
-[Statistics](python/notes/20240525.md)
+[Numpy & Pandas](pythonData/notes/20240528.md)

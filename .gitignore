@@ -72,3 +72,4 @@ data/
 # Python
 __pycache__/
 .python-version
+pyrightconfig.json
