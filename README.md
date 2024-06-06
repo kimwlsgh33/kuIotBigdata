@@ -1,8 +1,6 @@
 # kuIotBigdata
 
-C/C++ database arduino respberrypi Iot
-
----
+## C/C++ database arduino respberrypi Iot
 
 ## 2024-02-22
 
@@ -208,3 +206,27 @@ C/C++ database arduino respberrypi Iot
 ## 2024-05-28
 
 [Numpy & Pandas](pythonData/notes/20240528.md)
+
+## 2024-05-29
+
+[Matplotlib](pythonData/notes/20240529.md)
+
+## 2024-05-30
+
+[Machine Learning](pythonData/notes/20240530.md)
+
+## 2024-05-31
+
+[Bigdata](pythonData/notes/20240531.md)
+
+## 2024-06-03
+
+[Machine Learning](pythonData/notes/20240603.md)
+
+## 2024-06-04
+
+[Pytorch](pytorch/notes/20240604.md)
+
+## 2024-06-05
+
+[Pytorch](pytorch/notes/20240605.md)
